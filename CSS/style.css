@@ -1,0 +1,94 @@
+body{
+margin: 0px, 0px, 0px, 0px;
+background-color: pink;
+}
+
+nav{
+background-color: #fd5e53;
+}
+
+p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(23, 75, 75);
+}
+
+h1, h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p_size{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.m_30{
+    margin: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 25px;
+}
+
+nav ul li{
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white
+}
+
+nav ul li a:hover{
+color: aquamarine;
+cursor: progress;
+}
+
+/*Clases Flexbox*/
+
+.caja{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    /*margin: 15px;*/
+}
+
+.c1 {background-color: tomato;}
+.c2 {background-color: seagreen;}
+.c3 {background-color: turquoise;}
+.c4 {background-color: brown;}
+.c5 {background-color: blue;}
+.c6 {background-color: red;}
+.c7 {background-color: sienna;}
+.c8 {background-color: greenyellow;}
+.c9 {background-color: khaki;}
+.c10 {background-color: coral;}
+
+
+
+.container{
+display: flex;
+align-items: center;
+align-content: center;
+/*justify-content: center;*/
+border: black 3px solid;
+height: 300px;
+/*flex-wrap: nowrap;*/
+}
+
+@media only screen and (max-width: 800px){
+.container{
+    /*flex-direction: column;*/
+    background-color: pink;
+}
+}
+
